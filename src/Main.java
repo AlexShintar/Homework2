@@ -111,8 +111,8 @@ public class Main {
         var employees = totalWorkingHours / employeeWorkingHours;
         var moreEmployees = employees + 94;
         var newWorkingHours = moreEmployees * employeeWorkingHours;
-        System.out.println("Всего работников в компании - " + employees + " человек");
+        System.out.println("Всего работников в компании - " + employees + " человек.");
         System.out.println("Если в компании работает " + moreEmployees + " человека, то всего " + newWorkingHours +
-                " часов работы может быть поделено между сотрудниками");
+                " часов работы может быть поделено между сотрудниками.");
     }
 }
